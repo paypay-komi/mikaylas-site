@@ -83,10 +83,10 @@ a:hover {
 }
 
 .feature-icon {
-    width: 100%; /* Width adjusts according to the container */
-    height: auto; /* Height adjusts to maintain aspect ratio */
-    max-width: 120px; /* Maximum width to ensure it doesn’t grow too large */
-    object-fit: contain; /* Scale image to fit within container */
+    height: 100px; /* Fixed height */
+    width: auto; /* Width adjusts according to the aspect ratio */
+    max-width: 100%; /* Ensure the width does not exceed the container’s width */
+    object-fit: contain; /* Scale image to fit within the container while maintaining aspect ratio */
 }
 
 .policy-content, .terms-content {
