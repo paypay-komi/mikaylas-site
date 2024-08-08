@@ -17,11 +17,11 @@
     </header>
 
     <main>
-        <section class="buttons">
-            <a href="privacy-policy.html" class="btn">Privacy Policy</a>
-            <a href="terms-of-service.html" class="btn">Terms of Service</a>
-            <a href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot" class="btn" target="_blank">Add to Server</a>
-            <a href="https://discord.gg/YOUR_SUPPORT_SERVER" class="btn" target="_blank">Support Server</a>
+        <section class="center-buttons">
+            <button onclick="window.location.href='privacy-policy.html';">Privacy Policy</button>
+            <button onclick="window.location.href='terms-of-service.html';">Terms of Service</button>
+            <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot', '_blank');">Add to Server</button>
+            <button onclick="window.open('https://discord.gg/YOUR_SUPPORT_SERVER', '_blank');">Support Server</button>
         </section>
 
         <section class="features">
@@ -49,6 +49,10 @@
     </main>
 
     <footer>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-service.html">Terms of Service</a>
+        </div>
         <p>&copy; 2024 Mikayla Discord Bot. All rights reserved.</p>
     </footer>
 
