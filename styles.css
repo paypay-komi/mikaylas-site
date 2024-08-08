@@ -69,6 +69,10 @@ a:hover {
     margin: 20px 0;
 }
 
+.button-link {
+    text-decoration: none;
+}
+
 .feature {
     text-align: center;
     margin: 20px;
