@@ -94,8 +94,6 @@ a:hover {
 }
 
 .feature-icon {
-    height: auto; /* Keep original height */
-    width: auto; /* Keep original width */
     max-width: 300px;
     max-height: 200px;
     border-radius: 8px; /* Optionally set a maximum height */
