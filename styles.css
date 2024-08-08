@@ -3,18 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #2e2d2d;
+    color: #e0e0e0; /* Light grey text color */
+    background-color: #333; /* Dark grey background */
     transition: background-color 0.3s, color 0.3s;
 }
 
-body.dark-mode {
-    background-color: #1e1e1e;
-    color: #ccc;
-}
-
 header {
-    background-color: #222;
+    background-color: #222; /* Even darker grey for header */
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -31,7 +26,7 @@ header {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* Cool green color */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -46,11 +41,11 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Darker green for hover */
 }
 
 footer {
-    background-color: #222;
+    background-color: #222; /* Dark grey for footer */
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -60,7 +55,7 @@ footer {
 }
 
 a {
-    color: #4CAF50;
+    color: #4CAF50; /* Cool green color for links */
     text-decoration: none;
 }
 
@@ -87,12 +82,7 @@ a:hover {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #444; /* Slightly lighter grey for content areas */
     border-radius: 8px;
     transition: background-color 0.3s, color 0.3s;
-}
-
-body.dark-mode .policy-content,
-body.dark-mode .terms-content {
-    background-color: #2e2e2e;
 }
