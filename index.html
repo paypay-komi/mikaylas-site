@@ -3,29 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Nekomi's Fav Neko</title>
+    <title>Mikayla Discord Bot</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png" type="image/png">
 </head>
 <body>
     <header>
-        <h1>Welcome to Nekomi's Fav Neko (Mikayla)</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="terms-of-service.html">Terms of Service</a>
-        </nav>
-        <button id="theme-toggle">Toggle Dark Mode</button>
+        <div class="header-content">
+            <img src="icon.png" alt="Mikayla Bot Icon" class="bot-icon">
+            <h1>Mikayla Discord Bot</h1>
+            <button id="theme-toggle">Toggle Light/Dark Mode</button>
+        </div>
     </header>
+
     <main>
-        <section>
-            <h2>Home Page</h2>
-            <p>Welcome to the home page of Nekomi's Fav Neko (Mikayla). Explore our features and enjoy the experience we offer!</p>
-            <p>Discover the latest updates, engage with our community, and have fun with the bot's unique features.</p>
+        <section class="buttons">
+            <a href="privacy-policy.html" class="btn">Privacy Policy</a>
+            <a href="terms-of-service.html" class="btn">Terms of Service</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot" class="btn" target="_blank">Add to Server</a>
+            <a href="https://discord.gg/YOUR_SUPPORT_SERVER" class="btn" target="_blank">Support Server</a>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <img src="ai-icon.png" alt="AI Feature" class="feature-icon">
+                <h2>Self Hosted with AI</h2>
+                <p>The bot is self-hosted and includes AI capabilities.</p>
+            </div>
+            <div class="feature">
+                <img src="catgirl-icon.png" alt="Catgirl Images" class="feature-icon">
+                <h2>Catgirl Images</h2>
+                <p>Get adorable catgirl images with ease.</p>
+            </div>
+            <div class="feature">
+                <img src="uwu-icon.png" alt="Uwu Counter" class="feature-icon">
+                <h2>Uwu Counter</h2>
+                <p>Track and enjoy the number of 'uwu' in your server.</p>
+            </div>
+            <div class="feature">
+                <img src="nya-icon.png" alt="Nya Response" class="feature-icon">
+                <h2>Nya Response</h2>
+                <p>Responds with 'nya' for extra fun.</p>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Nekomi's Fav Neko. All Rights Reserved.</p>
+        <p>&copy; 2024 Mikayla Discord Bot. All rights reserved.</p>
     </footer>
+
     <script src="scripts.js"></script>
 </body>
 </html>
