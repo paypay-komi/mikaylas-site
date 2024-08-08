@@ -82,9 +82,21 @@ a:hover {
     margin: 20px;
 }
 
+.feature {
+    text-align: center;
+    margin: 20px;
+}
+
+.feature-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
 .feature-icon {
     height: 100px; /* Fixed height */
     width: auto; /* Width adjusts according to the aspect ratio */
+    min-width: 100px; /* Minimum width to ensure images are not too small */
     max-width: 100%; /* Ensure the width does not exceed the container’s width */
     object-fit: contain; /* Scale image to fit within the container while maintaining aspect ratio */
 }
