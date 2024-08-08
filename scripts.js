@@ -3,11 +3,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.getElementById('theme-toggle');
     const body = document.body;
-    
+
     // Check for saved theme in localStorage
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-        body.classList.add(savedTheme);
+    if (savedTheme === 'dark-mode') {
+        body.classList.add('dark-mode');
+        toggleButton.textContent = 'Toggle Light Mode';
+    } else {
+        body.classList.remove('dark-mode');
+        toggleButton.textContent = 'Toggle Dark Mode';
     }
 
     toggleButton.addEventListener('click', () => {
