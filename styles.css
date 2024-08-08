@@ -49,9 +49,17 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.footer-buttons {
+    margin: 20px 0;
+}
+
+.footer-buttons a {
+    margin: 0 10px;
 }
 
 a {
@@ -67,10 +75,6 @@ a:hover {
 .center-buttons {
     text-align: center;
     margin: 20px 0;
-}
-
-.button-link {
-    text-decoration: none;
 }
 
 .feature {
