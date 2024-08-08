@@ -1,3 +1,5 @@
+/* styles.css */
+
 /* Base Styles for Light Mode */
 body {
     font-family: Arial, sans-serif;
@@ -63,12 +65,16 @@ footer.dark-mode {
     color: #ffffff;
 }
 
-/* Ensure buttons also adapt to dark mode */
-button.dark-mode {
+/* Toggle Button Styles */
+button {
     background-color: #007bff;
     color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
 }
 
-button.dark-mode:hover {
+button:hover {
     background-color: #0056b3;
 }
