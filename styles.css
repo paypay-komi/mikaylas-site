@@ -45,12 +45,12 @@ footer {
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #000000;
+    background-color: #242424;
     color: #ffffff;
 }
 
 header.dark-mode {
-    background-color: #333333;
+    background-color: #242424;
 }
 
 nav a.dark-mode {
@@ -58,7 +58,7 @@ nav a.dark-mode {
 }
 
 footer.dark-mode {
-    background-color: #333333;
+    background-color: #242424;
 }
 
 /* Toggle Button Styles */
