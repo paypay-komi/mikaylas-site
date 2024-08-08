@@ -83,7 +83,10 @@ a:hover {
 }
 
 .feature-icon {
-    width: 80px;
+    width: 120px; /* Increased width */
+    height: 120px; /* Increased height */
+    object-fit: cover; /* Ensure the image maintains its aspect ratio */
+    margin: 10px; /* Optional: adds space around each image */
 }
 
 .policy-content, .terms-content {
